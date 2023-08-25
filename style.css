@@ -1,0 +1,20 @@
+.nav-link{
+    color: white;
+    margin: 0px 12px;
+}
+
+
+.btn a{
+    text-decoration: none !important;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* footer section */
+
+.foot{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+}
+/* i have created responsive project with using of at least css */

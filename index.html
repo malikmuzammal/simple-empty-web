@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootsrap projects used with zero css</title>
+  <link rel="stylesheet" href="bootstrap1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/41c1b26d01.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid" style="background-color: red;">
+      <a class="navbar-brand" href="#"><img src="./logo/9684476.png" alt="" style="width:40px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">App Development</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Word Press</a></li>
+              <li><a class="dropdown-item" href="#">SEO</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="mx-4">
+          <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#loginModal">login</button>
+          <button class="btn btn-success"data-bs-toggle="modal" data-bs-target="#signupModal">signup</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- modal start1 -->
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade  modal-dialog-scrollable" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+       Welcom to login your account
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- modal end1 -->
+  <!-- modal start2 -->
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="signupModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- modal end2 -->
+  <!-- slider section -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/struggle.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/s1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/getty_843368870_406041.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/walpaper.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Forth slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- heading section -->
+  <div class="container-fluid">
+    <div class="row justify-content-center text-center pt-4 pb-4">
+      <div class="col-md-10 pt-2 pb-2"data-aos="fade-left">
+        <h5 class="display-6 ps-2 pe-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Accusamus in
+          vitae porro cumque officia velit recusandae fugiat voluptate corrupti iste.</h5>
+      </div>
+    </div>
+    <div class="row justify-content-evenly text-center">
+      <div class="col-md-3 mb-5 mt-3"data-aos="fade-left">
+        <h2><i class="fa-solid fa-user-lock text-primary"></i></h2>
+        <h5>Build For Developers</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse impedit porro laboriosam, ducimus assumenda
+          facere cumque quibusdam vitae, culpa eveniet quisquam magni voluptatem nobis natus? Magni vel atque fugiat ad!
+        </p>
+      </div>
+      <div class="col-md-3 mb-5 mt-3"data-aos="fade-left">
+        <h2><i class="fa-solid fa-building-circle-check  text-danger"></i></h2>
+        <h5>Build For Developers</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse impedit porro laboriosam, ducimus assumenda
+          facere cumque quibusdam vitae, culpa eveniet quisquam magni voluptatem nobis natus? Magni vel atque fugiat ad!
+        </p>
+      </div>
+      <div class="col-md-3 mb-5 mt-3"data-aos="fade-left">
+        <h2><i class="fa-solid fa-building-circle-check  text-success"></i></h2>
+        <h5>Build For Developers</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse impedit porro laboriosam, ducimus assumenda
+          facere cumque quibusdam vitae, culpa eveniet quisquam magni voluptatem nobis natus? Magni vel atque fugiat ad!
+        </p>
+
+      </div>
+    </div>
+    <hr>
+    <div class="row justify-content-evenly  pt-5">
+      <div class="col-md-5"data-aos="fade-left"><img src="./images/str.jpg" class="img-fluid" alt=""></div>
+      <div class="col-md-5 mt-3 mb-3"data-aos="fade-right">
+        <h2 class="mt-2 mb-2 ">Website Development</h2>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-success" style="width: 25%"></div>
+        </div>
+        <h2 class="mt-2 mb-2 ">App Development</h2>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-info" style="width: 50%"></div>
+        </div>
+        <h2 class="mt-2 mb-2 ">softwere Development</h2>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-warning" style="width: 75%"></div>
+        </div>
+        <h2 class="mt-2 mb-2 ">SEO</h2>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-danger" style="width: 100%"></div>
+        </div>
+        <h2 class="mt-2 mb-2 ">Marketing</h2>
+
+      </div>
+    </div>
+    <!-- contat section -->
+    <div class="row mb-5 mt-5 justify-content-evenly" style="background-color: rgb(247, 243, 243);">
+      <div class="col-md-5"data-aos="flip-up">
+        <form>
+          <div class="mb-3">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Verify Your Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger"> <a href="https://www.google.com"> Submit</a></button>
+        </form>
+
+      </div>
+    </div>
+    <div class="col-md-5">
+      <p>Madina Town Mudassar Shaheed <br>
+        Street <br></p>
+      <p class="display-4">Bahawal Nagar.</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.6642728718743!2d71.73061637447721!3d29.38011784974229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393c5635be6a1f49%3A0x321f6a6aecaaa0ab!2sBahawalpur%20-%20Bahawalnagar%20Rd%2C%20Madina%20Town%2C%20Bahawalpur%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1688646755725!5m2!1sen!2s"
+        style="width:100%" height="230" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-10 text-center mt-4 mb-4">
+      <h2>FAQ</h2>
+    </div>
+  </div>
+  <div class="row justify-content-evenly">
+    <div class="col-md-10  mb-8"data-aos="fade-left">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+              filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer sectioin -->
+  <div class="foot">
+    Copywright &copy;www.myonline web projects class.com
+  </div>
+  <script src="bootstrap1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      offset: 120,
+    });
+  </script>
+
+  <!-- End of the projects -->
+</body>
+
+</html>
